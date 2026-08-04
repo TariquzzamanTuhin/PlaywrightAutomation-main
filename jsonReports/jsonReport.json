@@ -1,0 +1,154 @@
+{
+  "config": {
+    "configFile": "f:\\Automation\\Practise\\playwright.config.ts",
+    "rootDir": "f:/Automation/Practise",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1,
+      "totalTime": 38484.8140001297
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "f:\\Automation\\Practise\\My-Reporter.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "f:/Automation/Practise/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome:latest:MacOS Catalina@lambdatest",
+        "name": "chrome:latest:MacOS Catalina@lambdatest",
+        "testDir": "f:/Automation/Practise",
+        "testIgnore": [],
+        "testMatch": [
+          "loginPositive.test.ts"
+        ],
+        "timeout": 350000
+      },
+      {
+        "outputDir": "f:/Automation/Practise/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome:latest:Windows 10@lambdatest",
+        "name": "chrome:latest:Windows 10@lambdatest",
+        "testDir": "f:/Automation/Practise",
+        "testIgnore": [],
+        "testMatch": [
+          "loginPositive.test.ts"
+        ],
+        "timeout": 350000
+      },
+      {
+        "outputDir": "f:/Automation/Practise/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome",
+        "name": "chrome",
+        "testDir": "f:/Automation/Practise",
+        "testIgnore": [],
+        "testMatch": [
+          "loginPositive.test.ts"
+        ],
+        "timeout": 350000
+      },
+      {
+        "outputDir": "f:/Automation/Practise/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "f:/Automation/Practise",
+        "testIgnore": [],
+        "testMatch": [
+          "loginPositive.test.ts"
+        ],
+        "timeout": 350000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.36.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\loginPositive.test.ts",
+      "file": "tests/loginPositive.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "12 Visual comparison",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 350000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 34699,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-08-01T06:09:47.973Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "f:\\Automation\\Practise\\test-results\\tests-loginPositive-12-Visual-comparison-chrome\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "34167b688cbb1e1d059a-3036ea595942a748d513",
+          "file": "tests/loginPositive.test.ts",
+          "line": 71,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

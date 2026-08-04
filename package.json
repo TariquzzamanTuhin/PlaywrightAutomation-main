@@ -1,0 +1,16 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chrome",
+    "test:lt": "npx playwright test --project=\"chrome:latest:MacOS Catalina@lambdatest\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.1"
+  }
+}
